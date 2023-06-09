@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@400&display=swap"
+    />
+    <style>
+      /* Styles for the pop-up */
+      .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        z-index: 9999;
+      }
+
+      .popup-content {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 1500px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <img class="ggggg-1-icon" alt="" src="./public/ggggg-1@2x.png" />
+
+      <div class="group-parent">
+        <div class="group-container">
+          <div class="sign-up-parent">
+            <div class="sign-up">Sign up</div>
+            <img class="group-child" alt="" src="./public/rectangle-1.svg" />
+          </div>
+          <div class="sign-in">Sign in</div>
+        </div>
+        <div class="group-div">
+          <div class="course-parent">
+            <div class="course">
+              <span>Course</span>
+              <span class="span">+</span>
+            </div>
+            <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+          </div>
+          <div class="examify-parent">
+            <div class="examify">
+              <span>E</span>
+              <span class="span">x</span>
+              <span>amify</span>
+            </div>
+            <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+          </div>
+          <div class="skillup-parent">
+            <div class="skillup">
+              <span>Skill</span>
+              <span class="span">U</span>
+              <span>p</span>
+            </div>
+            <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+          </div>
+          <div class="university-parent">
+            <div class="university">
+              <span>Univer</span>
+              <span class="span">s</span>
+              <span>ity</span>
+            </div>
+            <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-parent">
+        <div class="group-item"></div>
+        <img class="search-1-icon" alt="" src="./public/search-1@2x.png" />
+      </div>
+      <div class="embrace-the-journey-of-learnin-parent">
+        <div class="embrace-the-journey-container">
+          <span>Embrace the </span>
+          <span class="span">Journey</span>
+          <span> of Learning</span>
+        </div>
+        <div class="explore-discover-learn-container">
+          <p class="explore-discover-learn">
+            Explore, discover, learn with delight,
+          </p>
+          <p class="explore-discover-learn">
+            Our website fuels your educational flight.
+          </p>
+        </div>
+      </div>
+      <div class="group-parent1">
+        <div class="group-parent2">
+          <div class="uuuuuuu-1-parent">
+            <img
+              class="uuuuuuu-1-icon"
+              alt=""
+              src="./public/uuuuuuu-1@2x.png"
+            />
+
+            <img
+              class="uuuuuuu-2-icon"
+              alt=""
+              src="./public/uuuuuuu-2@2x.png"
+            />
+          </div>
+          <div class="group-wrapper">
+            <div class="iit-delhi-indian-institute-of-parent">
+              <img
+                class="iit-delhi-indian-institute-of-icon"
+                alt=""
+                src="./public/iitdelhiindianinstituteoftechnologydelhi-1-2@2x.png"
+              />
+
+              <div class="iit-delhi">IIT Delhi</div>
+            </div>
+          </div>
+          <img class="pngegg-1-icon" alt="" src="./public/pngegg-1@2x.png" />
+        </div>
+        <div class="endorsed-by-renowned">
+          Endorsed by renowned institutions worldwide
+        </div>
+      </div>
+      <div class="group-parent3">
+        <div class="rectangle-wrapper">
+          <div class="group-inner"></div>
+        </div>
+        <div class="launch" onclick="openPopup('popup1')">Launch</div>
+      </div>
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <h2>Pop-up Content</h2>
+          <div id="popup-content-placeholder"></div>
+          <button onclick="closePopup()">Close</button>
+        </div>
+      </div>
+      
+      <script>
+        function openPopup() {
+          // Show the pop-up
+          document.getElementById("popup").style.display = "block";
+      
+          // Load the content from the specified file into the pop-up
+          var popupContentPlaceholder = document.getElementById(
+            "popup-content-placeholder"
+          );
+          popupContentPlaceholder.innerHTML = ""; // Clear any previous content
+      
+          // Create a new iframe element
+          var iframe = document.createElement("iframe");
+          iframe.style.width = "100%";
+          iframe.style.height = "100%";
+          iframe.style.border = "none";
+      
+          // Set the source of the iframe to the file within the "popup1" folder
+          iframe.src = "popup1";
+      
+          // Append the iframe to the pop-up content placeholder
+          popupContentPlaceholder.appendChild(iframe);
+        }
+      
+        function closePopup() {
+          // Hide the pop-up
+          document.getElementById("popup").style.display = "none";
+        }
+      </script>
+  </body>
+</html>

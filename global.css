@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto-slab: "Roboto Slab";
+
+  /* font sizes */
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-limegreen: #19e245;
+
+  /* border radiuses */
+  --br-31xl: 50px;
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto-slab: "Roboto Slab";
+
+  /* font sizes */
+  --font-size-15xl: 34px;
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-powderblue: #97d0d4;
+  --color-gray-100: rgba(0, 0, 0, 0.3);
+  --color-black: #000;
+  --color-limegreen: #19e245;
+
+  /* border radiuses */
+  --br-61xl: 80px;
+  --br-mini: 15px;
+  --br-31xl: 50px;
+}
