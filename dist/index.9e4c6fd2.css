@@ -1,0 +1,365 @@
+.ggggg-1-icon {
+  object-fit: cover;
+  width: 1728px;
+  height: 6967px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sign-up {
+  width: 76px;
+  height: 30.14px;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 7.03px;
+  left: 14px;
+}
+
+.group-child, .sign-in, .sign-up-parent {
+  width: 103px;
+  height: 45.22px;
+  position: absolute;
+  top: 0;
+}
+
+.group-child {
+  border-radius: 10px;
+  left: 0;
+}
+
+.sign-in, .sign-up-parent {
+  left: 77px;
+}
+
+.sign-in {
+  width: 67px;
+  height: 30.14px;
+  display: inline-block;
+  top: 7.03px;
+  left: 0;
+}
+
+.group-container {
+  width: 180px;
+  height: 45.22px;
+  position: absolute;
+  top: 0;
+  left: 1026px;
+}
+
+.span {
+  color: var(--color-limegreen);
+}
+
+.course {
+  width: 88.04px;
+  height: 26px;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-1-icon {
+  object-fit: cover;
+  width: 14.17px;
+  height: 11.38px;
+  position: absolute;
+  top: 6.5px;
+  left: 88.04px;
+}
+
+.course-parent, .examify {
+  width: 102.21px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.examify {
+  width: 77.92px;
+  height: 24.38px;
+  display: inline-block;
+}
+
+.image-4-icon {
+  object-fit: cover;
+  width: 14.17px;
+  height: 11.38px;
+  position: absolute;
+  top: 6.5px;
+  left: 77.92px;
+}
+
+.examify-parent, .skillup {
+  width: 92.09px;
+  height: 24.38px;
+  position: absolute;
+  top: 0;
+  left: 329.91px;
+}
+
+.skillup {
+  width: 64.77px;
+  display: inline-block;
+  left: 0;
+}
+
+.image-3-icon {
+  object-fit: cover;
+  width: 14.17px;
+  height: 11.38px;
+  position: absolute;
+  top: 5.69px;
+  left: 64.77px;
+}
+
+.skillup-parent, .university {
+  width: 78.94px;
+  height: 24.38px;
+  position: absolute;
+  top: .81px;
+  left: 238.83px;
+}
+
+.university {
+  width: 98.16px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+.image-2-icon {
+  object-fit: cover;
+  width: 14.17px;
+  height: 11.38px;
+  position: absolute;
+  top: 6.5px;
+  left: 98.16px;
+}
+
+.university-parent {
+  width: 112.33px;
+  height: 24.38px;
+  position: absolute;
+  top: 0;
+  left: 114.35px;
+}
+
+.group-div, .group-parent {
+  width: 422px;
+  height: 26px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.group-parent {
+  font-size: var(--font-size-xl);
+  width: 1206px;
+  height: 45.22px;
+  top: 48px;
+  left: 261px;
+}
+
+.group-item {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  background: linear-gradient(#d9d9d900 99.99%, #d9d9d900);
+  width: 599.47px;
+  height: 70.45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.search-1-icon {
+  object-fit: cover;
+  width: 34.58px;
+  height: 34.58px;
+  position: absolute;
+  top: 17.93px;
+  left: 530.3px;
+}
+
+.rectangle-parent {
+  width: 599.47px;
+  height: 70.45px;
+  position: absolute;
+  top: 395px;
+  left: 265px;
+}
+
+.embrace-the-journey-container {
+  width: 1076px;
+  height: 371px;
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.explore-discover-learn {
+  margin: 0;
+}
+
+.explore-discover-learn-container {
+  font-size: var(--font-size-31xl);
+  background: linear-gradient(269.06deg, #ff8ec4, #89ffcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 1057px;
+  height: 149px;
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+  top: 371px;
+  right: 19px;
+}
+
+.embrace-the-journey-of-learnin-parent {
+  width: 1076px;
+  height: 520px;
+  font-size: 90px;
+  position: absolute;
+  top: 465px;
+  left: 265px;
+}
+
+.uuuuuuu-1-icon {
+  object-fit: cover;
+  width: 250.6px;
+  left: 93.4px;
+}
+
+.uuuuuuu-1-icon, .uuuuuuu-1-parent, .uuuuuuu-2-icon {
+  height: 84.08px;
+  position: absolute;
+  top: 0;
+}
+
+.uuuuuuu-2-icon {
+  object-fit: cover;
+  width: 84.4px;
+  left: 0;
+}
+
+.uuuuuuu-1-parent {
+  width: 344px;
+  left: 9px;
+}
+
+.iit-delhi-indian-institute-of-icon {
+  object-fit: cover;
+  width: 95px;
+  height: 106.22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iit-delhi {
+  position: absolute;
+  top: 23px;
+  left: 115px;
+}
+
+.group-wrapper, .iit-delhi-indian-institute-of-parent, .pngegg-1-icon {
+  width: 319px;
+  height: 106.22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-wrapper, .pngegg-1-icon {
+  top: 224.08px;
+}
+
+.pngegg-1-icon {
+  object-fit: cover;
+  width: 360px;
+  height: 103px;
+  top: 105.08px;
+}
+
+.group-parent2 {
+  width: 360px;
+  height: 330.3px;
+  position: absolute;
+  top: 89px;
+  left: 10px;
+}
+
+.endorsed-by-renowned {
+  font-size: 30px;
+  font-family: var(--font-poppins);
+  color: #ffffff80;
+  width: 685px;
+  height: 47px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.group-parent1 {
+  color: #cfd0d1;
+  font-family: var(--font-roboto-slab);
+  width: 685px;
+  height: 419.3px;
+  position: absolute;
+  top: 1090px;
+  left: 267px;
+}
+
+.group-inner {
+  border-radius: var(--br-31xl);
+  background-color: #97d0d4;
+}
+
+.group-inner, .launch, .rectangle-wrapper {
+  width: 247px;
+  height: 100.37px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.launch {
+  width: 195px;
+  height: 77px;
+  font-weight: 500;
+  display: inline-block;
+  top: 12px;
+  left: 31px;
+}
+
+.group-parent3 {
+  color: var(--color-black);
+  width: 247px;
+  height: 100.37px;
+  position: absolute;
+  top: 117px;
+  left: 274px;
+}
+
+.home {
+  background-color: var(--color-black);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  width: 100%;
+  height: 6967px;
+  position: relative;
+  overflow-y: auto;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
